@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-image: linear-gradient(45deg, #9198E2,#6059C0,#B93590, #E33F5F,#FDD579);
+    background-attachment: fixed;
+}
+
+#principal{
+    background-color: rgba(255, 255, 255, 0.151);
+    width: 450px;
+    margin: 150px auto;
+}
+
+input{
+    padding: 5px;
+    width: 350px;
+    align-items: center;
+    text-align: center;
+    margin-left: 50px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+button{
+    margin-top: 5px;
+    padding: 15px;
+}
+
+#buttons{
+    margin-left: 125px;
+}
+
+ul{
+    float: right;
+    margin-top: -162px;
+    margin-right: 145px;
+}
+
+#divisor{
+     padding: 10px;
+}
+
+li{
+    list-style: none;
+}
+
