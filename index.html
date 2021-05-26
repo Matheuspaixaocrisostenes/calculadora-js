@@ -8,30 +8,30 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div id="principal">
-        <input type="text" id="tela"> <br>
+    <h1>test</h1>
+    <form name="calc">
+        <input type="text" name="visor" id="visor"> <br>
         <div id="buttons">
-            <button onclick="click1()">1</button>
-            <button onclick="click2()">2</button>
-            <button onclick="click3()">3</button> <br>
-            <button onclick="click4()">4</button>
-            <button onclick="click5()" >5</button>
-            <button onclick="click6()">6</button><br>
-            <button onclick="click7()">7</button>
-            <button onclick="click8()">8</button>
-            <button onclick="click9()">9</button> <br>
-            <button onclick="click0()">0</button>
-            <button>=</button>
-			<button onclick="limpa()">c</button>
-            <ul>
-                <li><button class="opera" onclick="sum()">+</button></li>
-                <li><button class="opera">-</button></li>
-                <li><button class="opera">/</button></li>
-                <li><button class="opera">*</button></li>
-            </ul>
-        </div>
-		<div id="divisor"></div>
+        <input type="button" value="7" onclick="botao( value )"> 
+        <input type="button" value="8" onclick="botao( value )"> 
+        <input type="button" value="9" onclick="botao( value )">
+        <input type="button" value="/" onclick="botao( value )">  <br>
+        <input type="button" value="4" onclick="botao( value )"> 
+        <input type="button" value="5" onclick="botao( value )"> 
+        <input type="button" value="6" onclick="botao( value )">
+        <input type="button" value="*" onclick="botao( value )"> 
+         <br>
+        <input type="button" value="1" onclick="botao( value )"> 
+        <input type="button" value="2" onclick="botao( value )"> 
+        <input type="button" value="3" onclick="botao( value )"> 
+        <input type="button" value="-" onclick="botao( value )"> 
+        <br>
+        <input type="button" value="0" onclick="botao( value )"> 
+        <input type="button" value="=" onclick="calcule()"> 
+        <input type="button" value="c" onclick="reset()"> 
+        <input type="button" value="+" onclick="botao( value )"> 
     </div>
+    </form>
     <script src="script.js"></script>
 </body>
 </html>
